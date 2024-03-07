@@ -533,6 +533,11 @@ margin-top: 25px;
   height: 350.2px;
   padding-bottom: 50px;
 }
+
+.details_main_container {
+  padding-bottom: 0px;
+}
+
 }
 
 
