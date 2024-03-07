@@ -109,7 +109,7 @@ width: 21.43px;
 @media (max-width: 768px) {
   .navbar_menu-icon {
     height: 12px;
-    padding: 0 40px;
+    padding: 0 10px;
   }
 
   .navbar_line {
