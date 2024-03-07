@@ -251,6 +251,7 @@ width: 21.43px;
     }
     .hero_text {
       margin-bottom: 20px;
+      padding: 10px 15px;
     }
 
   .hero_access-text {
@@ -262,7 +263,7 @@ width: 21.43px;
   .hero_expand-text {
     font-size: 16px;
     line-height: 25px;
-    padding: 20px 0px 0px 5px;
+    padding: 10px 15px;
         }
 
 }
@@ -381,6 +382,7 @@ margin-top: 25px;
 
   .email_paragraph {
     width: 100%;
+    padding: 0px 10px;
   }
 
 }
@@ -506,10 +508,11 @@ margin-top: 25px;
     width: 100%;
     font-size: 37.67px;
     line-height: 47.29px;
-    padding-top: 20px;
+    padding: 10px 15px;
   }
     .details_text-and-svg_container p {
           width: 100%;
+          padding: 0 15px 25px 15px;
     }
   .details_contact-us {
     margin-bottom: 10px;
@@ -522,7 +525,7 @@ margin-top: 25px;
     }
 
   .details_text-and-svg_container .details_svg_container {
-    width: 100%;
+    width: 90%;
     margin-left: 0px; 
         }
 .details_svg_container svg {
