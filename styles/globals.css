@@ -70,7 +70,12 @@ a {
   min-height: 100vh;
 }
 
-
+@media (max-width: 768px) {
+  .background_wrapper {
+    
+      min-height: 0;
+  }
+}
 
 
 /* NavigationBar component */
@@ -117,9 +122,17 @@ width: 21.43px;
     height: 2px;
   }
 
+    .navbar_line-short {
+      width: 13.43px; 
+    }
+
     .navbar {
       padding: 25px 0px 25px 25px;
     }
+  .banner_message {
+    line-height: 16px;
+    padding: 0px 11px;
+  }
 }
 
 
@@ -228,9 +241,10 @@ width: 21.43px;
   }
 
     .hero_choose-text {
-      font-size: 25px;
-      line-height: 40px;
-      letter-spacing: 0.2em;
+      font-size: 24px;
+    }
+    .hero_text {
+      margin-bottom: 0px;
     }
 
   .hero_access-text {
@@ -239,11 +253,11 @@ width: 21.43px;
     height: 400px;
   }
 
-    .hero_expand-text {
-      font-size: 20px;
-      line-height: 35px;
-      padding: 20px 0px 0px 20px;
-    }
+  .hero_expand-text {
+    font-size: 16px;
+    line-height: 35px;
+    padding: 20px 0px 0px 5px;
+        }
 
 }
 
@@ -345,16 +359,18 @@ width: 21.43px;
 }
 
 .email_container {
-margin-top: 70px;
+margin-top: 25px;
 }
 .email_input_container {
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
   .email_input, .email_input_learn-more-btn  {
     width: 100%;
     font-size: 14.72px;
+        height: 50px;
   }
 
   .email_paragraph {
@@ -483,18 +499,30 @@ margin-top: 70px;
   .details_second_container h2 {
     width: 100%;
     font-size: 37.67px;
-      line-height: 47.29px;
+    line-height: 47.29px;
+    padding-top: 20px;
   }
     .details_text-and-svg_container p {
           width: 100%;
     }
   .details_contact-us {
     margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
       }
   .details_main_container {
     padding-bottom: 0;
     }
 
+  .details_text-and-svg_container .details_svg_container {
+    width: 100%;
+    margin-left: 0px; 
+        }
+.details_svg_container svg {
+  height: 350.2px;
+  padding-bottom: 50px;
+}
 }
 
 
