@@ -116,6 +116,10 @@ width: 21.43px;
     width: 20px;
     height: 2px;
   }
+
+    .navbar {
+      padding: 25px 0px 25px 25px;
+    }
 }
 
 
@@ -246,7 +250,8 @@ width: 21.43px;
 @media (max-width: 600px) {
 
   .hero_access-text {
-    font-size: 150px;
+    font-size: 100px;
+    height: 200px;
   }
 
 
