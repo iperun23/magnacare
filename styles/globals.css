@@ -257,7 +257,7 @@ width: 21.43px;
     }
     .hero_text {
       margin-bottom: 20px;
-      padding: 10px 10px;
+      padding: 10px 15px;
     }
 
   .hero_access-text {
@@ -522,9 +522,7 @@ margin-top: 25px;
     }
   .details_contact-us {
     margin-bottom: 10px;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
+    padding: 0 15px;
       }
   .details_main_container {
     padding-bottom: 50px;
