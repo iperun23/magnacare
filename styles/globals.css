@@ -133,6 +133,12 @@ width: 21.43px;
     line-height: 16px;
     padding: 0px 11px;
   }
+
+    .navbar_logo img{
+      width: 170px;
+        height: 21px;
+    }
+
 }
 
 
@@ -244,7 +250,7 @@ width: 21.43px;
       font-size: 24px;
     }
     .hero_text {
-      margin-bottom: 0px;
+      margin-bottom: 20px;
     }
 
   .hero_access-text {
@@ -255,7 +261,7 @@ width: 21.43px;
 
   .hero_expand-text {
     font-size: 16px;
-    line-height: 35px;
+    line-height: 25px;
     padding: 20px 0px 0px 5px;
         }
 
@@ -369,7 +375,7 @@ margin-top: 25px;
 
   .email_input, .email_input_learn-more-btn  {
     width: 100%;
-    font-size: 14.72px;
+    font-size: 12.72px;
         height: 50px;
   }
 
@@ -512,7 +518,7 @@ margin-top: 25px;
     padding-bottom: 20px;
       }
   .details_main_container {
-    padding-bottom: 0;
+    padding-bottom: 50px;
     }
 
   .details_text-and-svg_container .details_svg_container {
