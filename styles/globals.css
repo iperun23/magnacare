@@ -466,38 +466,34 @@ margin-top: 70px;
   .details_container {
       margin-top: 50px;
     }
-
   .details_right_image {
       display: none;
     }
-
   .details_left_image {
     display: none;
   }
-
     .details_second_container {
       padding: 5px;
       margin-top: 0;
     }
-
         .details_text-and-svg_container {
-
           flex-direction: column;
         }
   .details_second_container h2 {
     width: 100%;
+    font-size: 37.67px;
+      line-height: 47.29px;
   }
     .details_text-and-svg_container p {
           width: 100%;
     }
-
   .details_contact-us {
     margin-bottom: 10px;
       }
-
   .details_main_container {
     padding-bottom: 0;
     }
+
 }
 
 
