@@ -340,12 +340,16 @@ width: 21.43px;
 }
 
 .email_container {
-margin-top: 25px;
+margin-top: 70px;
 }
 .email_input_container {
   width: 100%;
   margin: 0 auto;
 }
+
+  .email_input, .email_input_learn-more-btn  {
+    width: 100%;
+  }
 
   .email_paragraph {
     width: 100%;
